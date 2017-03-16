@@ -15,7 +15,7 @@
     <div ng-controller="ProductController">
         <form class="form-inline">
             <h5>Add Item</h5>
-            <input class="form-control" required id="name" placeholder="Product Name" ng-model="name" type="text"/>
+            <input class="form-control" ng-required="true" id="name" placeholder="Product Name" ng-model="name" type="text"/>
             <input class="form-control" id="subject" placeholder="Product Description" ng-model="desc" type="text"/>
             <input class="form-control" type="number" cols="40" id="price" placeholder="Cost" ng-model="cost" rows="10">
             <button class="btn btn-primary" name="submit" ng-click="postData(name,desc,cost)" type="submit">Add</button>
