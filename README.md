@@ -1,7 +1,4 @@
 
-
-Simple Rest Server without any Database. Data stored to files. No database required
-
 You must have nodejs install to run this 
 ```
   git clone
@@ -20,3 +17,8 @@ Start server
   
   node server.js
 ```
+
+
+
+
+![screenshot](https://raw.githubusercontent.com/mayur9210/Angular-Product-app-/master/init.png)
