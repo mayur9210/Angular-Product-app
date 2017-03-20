@@ -18,7 +18,3 @@ Start server
   node server.js
 ```
 
-
-
-
-![screenshot](https://raw.githubusercontent.com/mayur9210/Angular-Product-app-/master/init.png)
